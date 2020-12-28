@@ -104,13 +104,4 @@ public:
       lastTime = millis();
     }
   }
-
-  /*
-     * getId() allows you to optionally give your V2 usermod an unique ID (please define it in const.h!).
-     * This could be used in the future for the system to determine whether your usermod is installed.
-     */
-  uint16_t getId()
-  {
-    return USERMOD_ID_AMBILIGHT2WLED;
-  }
 };
