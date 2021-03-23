@@ -1,13 +1,12 @@
 #include <Arduino.h>
 #include <ArduinoJson.h>
 
-#include <WiFi.h>
-#include <WiFiMulti.h>
-#include <HTTPClient.h>
+#include <ESP8266WiFiMulti.h>
+#include <ESP8266HTTPClient.h>
 
 #define USE_SERIAL Serial
 
-WiFiMulti wifiMulti;
+ESP8266WiFiMulti wifiMulti;
 const char* ssid = "SSID";
 const char* password = "PASSWORD";
 const char* AmbilightSource = "http://192.168.1.XXX:1925/6/ambilight/processed";
