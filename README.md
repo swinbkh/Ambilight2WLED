@@ -12,10 +12,14 @@ ___
 
 Rather than syncing WLED to a Philips Hue bulb, this program can capture each of the sides of the TV, and process the colour values to WLED through it's API. 
 
-To check which version of Jointspace your TV uses, go to the System Information page of your TV either by: http://ip-address:1925/1/system or http://ip-address:1925/6/system
+To check which version of Jointspace your TV uses, go to the System Information page of your TV either by: 
+http://ip-address:1925/1/system or 
+http://ip-address:1925/6/system
 If the Major API version is 1, it will be necessary to edit the code to use: http://ip-address:1925/1/ambilight/processed otherwise, use http://ip-address:1925/6/ambilight/processed
 
-### How to compile and flash Standalone (from scratch)
+___
+
+## How to compile and flash Standalone (from scratch)
 1. Download and install Arduino IDE https://www.arduino.cc/en/software (available for Windopws, Linux, MacOS)
 2. Open Arduino IDE. 
 3. Got to File -> Preferences -> add "http://arduino.esp8266.com/stable/package_esp8266com_index.json" to Additional Board Manager URL's field.
